@@ -71,16 +71,16 @@ const translations = {
     "certs.stanford.issuer": "Stanford University",
     "certs.stanford.desc":
       "Intensive introductory programming course covering Python fundamentals, problem-solving, and computational thinking.",
+    "certs.backend.title": "Backend Development with Python & FastAPI",
+    "certs.backend.issuer": "Online Course / Platform",
+    "certs.backend.desc": "Certificate focused on building robust REST APIs with Python and FastAPI, including authentication, databases, and modern backend practices.",
     "certs.cambridge.title": "Cambridge C1 English",
     "certs.cambridge.issuer": "Cambridge Assessment English",
     "certs.cambridge.desc":
       "Advanced English proficiency certification (C1 level) — strong reading, writing, listening, and speaking skills for professional contexts.",
-    "certs.o1.title": "Responsive Web Design",
-    "certs.o2.title": "Java Programming",
-    "certs.o3.title": "Android Basics",
-    "certs.o4.title": "SQL for Developers",
-    "certs.o5.title": "Git & GitHub Essentials",
-    "certs.o6.title": "Intro to Algorithms",
+    "certs.o1.title": "Java Programming",
+    "certs.o2.title": "Bash/Shell — Terminal & Command Line",
+    "certs.o3.title": "Git & GitHub Essentials",
 
     // Skills
     "skills.label": "Skills",
@@ -206,12 +206,9 @@ const translations = {
     "certs.cambridge.issuer": "Cambridge Assessment English",
     "certs.cambridge.desc":
       "Certificación de inglés avanzado (nivel C1) — lectura, escritura, comprensión oral y expresión oral para contextos profesionales.",
-    "certs.o1.title": "Diseño web responsive",
-    "certs.o2.title": "Programación en Java",
-    "certs.o3.title": "Android Basics",
-    "certs.o4.title": "SQL para desarrolladores",
-    "certs.o5.title": "Fundamentos de Git y GitHub",
-    "certs.o6.title": "Introducción a algoritmos",
+    "certs.o1.title": "Java Programming",
+    "certs.o2.title": "Bash/Shell: Terminal y línea de Comandos",
+    "certs.o3.title": "Git & GitHub Essentials",
 
     // Skills
     "skills.label": "Habilidades",
