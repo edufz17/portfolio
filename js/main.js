@@ -4,7 +4,7 @@
 (function () {
   "use strict";
 
-  const CONTACT_EMAIL = "hello@example.com"; // TODO: replace with your email
+  const CONTACT_EMAIL = "edufz10@gmail.com"; 
 
   /* ---------- Init i18n ---------- */
   if (window.portfolioI18n) {
