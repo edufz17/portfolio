@@ -1,8 +1,6 @@
 # Eduardo Fernández Zarza — Portfolio
 
-![Portfolio Preview](https://via.placeholder.com/800x400?text=Portfolio+Preview)  
 <img width="1182" height="588" alt="image" src="https://github.com/user-attachments/assets/aab8c9a1-4ddc-4c10-bd44-e49c2a5ecdab" />
-
 
 **Desarrollador en formación especializado en Backend**  
 Estudiante de **Formación Profesional de Grado Superior en Desarrollo de Aplicaciones Multiplataforma (DAM)**
@@ -48,15 +46,19 @@ Sitio web bilingüe (Inglés / Español) y completamente responsive.
 
 ## 📂 Estructura del Proyecto
 
+```bash
+my-portfolio/
 ├── index.html
 ├── assets/
-│   ├── certificates/     ← Tus PDFs aquí
+│   ├── certificates/
+│   │   ├── stanford-code-in-place.pdf
+│   │   ├── cambridge-c1.pdf
+│   │   ├── backend-python-fastapi.pdf
+│   │   └── ...
 │   └── resume.pdf
 ├── css/
+│   └── style.css
 ├── js/
 │   ├── i18n.js
 │   └── main.js
 └── README.md
-
----
-
