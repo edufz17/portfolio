@@ -41,7 +41,8 @@ Sitio web bilingüe (Inglés / Español) y completamente responsive.
 - **Stanford Code in Place** – Stanford University
 - **Cambridge C1 English** – Cambridge Assessment English
 - **Backend Development with Python & FastAPI**
-
+- **SQL for Developers**
+  
 ---
 
 ## 📂 Estructura del Proyecto
