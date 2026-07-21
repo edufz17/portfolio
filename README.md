@@ -13,7 +13,7 @@ Sitio web bilingüe (Inglés / Español) y completamente responsive.
 
 ## 🌐 Live Demo
 
-[Ver Portfolio →](https://tu-usuario.github.io/tu-repo](https://edufz17.github.io/portfolio/)  
+[Ver Portfolio →](https://edufz17.github.io/portfolio/)  
 
 ---
 
