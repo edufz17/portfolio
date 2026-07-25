@@ -28,17 +28,20 @@ const translations = {
     "about.label": "About me",
     "about.title": "Backend-focused developer in training",
     "about.p1":
-      "I'm a developer in training specialized in backend, with a strong focus on Python and a real interest in designing services, APIs, and robust systems.",
+      "I'm a developer in training specialized in backend, with a strong focus on Python and a real interest in designing services, APIs, and robust systems. Beyond backend, I'm particularly drawn to data analysis and automation, where I can work with numbers, metrics, and processes and apply Python beyond API development.",
     "about.p2":
-      "I'm currently finishing my second year of vocational training in Multiplatform Application Development (DAM), with hands-on experience in software development, databases, and professional environments.",
+      "I'm currently finishing my second year of vocational training in Multiplatform Application Development (DAM), with hands-on experience in software development, databases, and professional environments. My goal is to join a team where I can deliver real value in backend and system integration, while building a solid path toward data-driven disciplines and automation with Python.",
     "about.p3":
-      "My goal is to join a team where I can deliver real value in backend, automation, and systems integration — while continuing to learn at a high level and taking on progressive technical responsibilities.",
+      "Before focusing on software development, I studied engineering for several years, which reinforced my love for complex problems, quantitative reasoning, and systems thinking. That experience, even without a degree, is part of the reason I now prefer using Python to work with data, processes, and technical solutions that bridge programming and engineering.",
     "about.card1Title": "Backend & APIs",
-    "about.card1Desc": "Services, APIs, and solid system design with a Python-first approach.",
+    "about.card1Desc":
+      "Services, APIs, and solid system design with a Python-first approach.",
     "about.card2Title": "Databases",
-    "about.card2Desc": "Practical experience modeling data and working with databases in real projects.",
+    "about.card2Desc":
+      "Practical experience modeling data and working with databases in real projects.",
     "about.card3Title": "Automation",
-    "about.card3Desc": "Integrations and automation that connect systems and streamline workflows.",
+    "about.card3Desc":
+      "Integrations and automation that connect systems and streamline workflows.",
 
     // Projects
     "projects.label": "Projects",
@@ -73,17 +76,20 @@ const translations = {
       "Intensive introductory programming course covering Python fundamentals, problem-solving, and computational thinking.",
     "certs.backend.title": "Backend Development with Python & FastAPI",
     "certs.backend.issuer": "Online Course / Platform",
-    "certs.backend.desc": "Certificate focused on building robust REST APIs with Python and FastAPI, including authentication, databases, and modern backend practices.",
+    "certs.backend.desc":
+      "Certificate focused on building robust REST APIs with Python and FastAPI, including authentication, databases, and modern backend practices.",
     "certs.cambridge.title": "Cambridge C1 English",
     "certs.cambridge.issuer": "Cambridge Assessment English",
     "certs.cambridge.desc":
       "Advanced English proficiency certification (C1 level) — strong reading, writing, listening, and speaking skills for professional contexts.",
     "certs.pythonBackend.title": "Backend with Python & FastAPI",
     "certs.pythonBackend.issuer": "Online Platform",
-    "certs.pythonBackend.desc": "Building scalable REST APIs with Python, FastAPI, automatic validation, interactive docs, and deployment.",
+    "certs.pythonBackend.desc":
+      "Building scalable REST APIs with Python, FastAPI, automatic validation, interactive docs, and deployment.",
     "certs.sqlDev.title": "SQL for Developers",
     "certs.sqlDev.issuer": "Online Platform",
-    "certs.sqlDev.desc": "Mastering advanced queries, relational database design, optimization, and stored procedures.",
+    "certs.sqlDev.desc":
+      "Mastering advanced queries, relational database design, optimization, and stored procedures.",
     "certs.bash.title": "Bash/Shell — Terminal & Command Line",
     "certs.o1.title": "Java Programming",
     "certs.o2.title": "Bash/Shell — Terminal & Command Line",
@@ -162,11 +168,11 @@ const translations = {
     "about.label": "Sobre mí",
     "about.title": "Programador en formación con foco en backend",
     "about.p1":
-      "Programador en formación especializado en backend, con foco en Python y gran interés en diseñar servicios, APIs y sistemas robustos.",
+      "Programador en formación especializado en backend, con foco en Python y gran interés en diseñar servicios, APIs y sistemas robustos. Además del backend, me atraen especialmente los ámbitos de análisis de datos y automatización, donde puedo trabajar con números, métricas y procesos y aplicar Python más allá del desarrollo de APIs.",
     "about.p2":
-      "Actualmente completando el segundo año de FP DAM, con experiencia práctica en desarrollo de software, bases de datos y trabajo con entornos profesionales.",
+      "Actualmente completando el segundo año de FP DAM, con experiencia práctica en desarrollo de software, bases de datos y trabajo con entornos profesionales. Mi objetivo es incorporarme a un equipo donde pueda aportar valor real en backend e integración de sistemas, mientras construyo un camino sólido hacia disciplinas basadas en datos y automatización con Python.",
     "about.p3":
-      "Mi objetivo es incorporarme a un equipo donde pueda aportar valor real en backend, automatización e integración de sistemas, mientras sigo aprendiendo a un nivel alto y asumiendo responsabilidades técnicas progresivas.",
+      "Antes de centrarme en el desarrollo de software, estudié ingeniería durante varios años, lo que reforzó mi gusto por los problemas complejos, el razonamiento cuantitativo y la visión de sistemas. Esa experiencia, aunque no terminara en un título, es parte de la razón por la que hoy prefiero usar Python para trabajar con datos, procesos y soluciones técnicas que cruzan programación e ingeniería.",
     "about.card1Title": "Backend y APIs",
     "about.card1Desc":
       "Servicios, APIs y diseño de sistemas sólidos con un enfoque priorizado en Python.",
@@ -200,8 +206,7 @@ const translations = {
     // Certificates
     "certs.label": "Certificados",
     "certs.title": "Credenciales y aprendizaje continuo",
-    "certs.subtitle":
-      "Logros destacados y cursos online adicionales.",
+    "certs.subtitle": "Logros destacados y cursos online adicionales.",
     "certs.featured": "Destacado",
     "certs.view": "Ver certificado",
     "certs.other": "Otros certificados",
@@ -215,10 +220,12 @@ const translations = {
       "Certificación de inglés avanzado (nivel C1) — lectura, escritura, comprensión oral y expresión oral para contextos profesionales.",
     "certs.pythonBackend.title": "Backend con Python y FastAPI",
     "certs.pythonBackend.issuer": "Plataforma Online",
-    "certs.pythonBackend.desc": "Desarrollo de APIs REST escalables con Python, FastAPI, validación automática, documentación interactiva y despliegue.",
+    "certs.pythonBackend.desc":
+      "Desarrollo de APIs REST escalables con Python, FastAPI, validación automática, documentación interactiva y despliegue.",
     "certs.sqlDev.title": "SQL para Desarrolladores",
     "certs.sqlDev.issuer": "Plataforma Online",
-    "certs.sqlDev.desc": "Dominio de consultas avanzadas, diseño de bases de datos relacionales, optimización y stored procedures.",
+    "certs.sqlDev.desc":
+      "Dominio de consultas avanzadas, diseño de bases de datos relacionales, optimización y stored procedures.",
     "certs.bash.title": "Bash/Shell: Terminal y línea de comandos",
     "certs.o1.title": "Java Programming",
     "certs.o2.title": "Bash/Shell: Terminal y línea de Comandos",
