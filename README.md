@@ -15,6 +15,22 @@ Sitio web bilingüe (Inglés / Español) y completamente responsive.
 
 ---
 
+## 🧠 Enfoque y uso de Inteligencia Artificial
+
+Como estudiante de DAM con un **enfoque claro en backend** (POO, APIs, bases de datos y sistemas), el frontend no es mi área de especialización principal.  
+
+Sin embargo, en el contexto profesional actual, **saber utilizar, crear y modificar código generado por IA** se ha convertido en una aptitud muy valiosa.  
+
+Este portfolio es un ejemplo práctico de esa competencia:
+
+- Utilicé **Grok Build** (agente de codificación de xAI) para generar la estructura, el diseño responsive y el sistema de internacionalización.
+- Revisé, adapte y refiné el código generado (estructura de carpetas, traducciones, enlaces a certificados, formulario de contacto, etc).
+- Iteré sobre el resultado hasta obtener un producto limpio, mantenible y que se ajustase a mis deseos y necesidades profesionales.
+
+El objetivo no era “evitar aprender frontend”, sino **demostrar que soy capaz de aprovechar herramientas de IA de forma crítica y productiva**, centrándome en la lógica, la arquitectura y el valor real del proyecto.
+
+---
+
 ## ✨ Características
 
 - **Bilingüe completo** (Inglés ↔ Español) con cambio dinámico sin recargar la página
