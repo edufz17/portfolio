@@ -86,13 +86,8 @@ const translations = {
     "certs.pythonBackend.issuer": "Online Platform",
     "certs.pythonBackend.desc":
       "Building scalable REST APIs with Python, FastAPI, automatic validation, interactive docs, and deployment.",
-    "certs.sqlDev.title": "SQL for Developers",
-    "certs.sqlDev.issuer": "Online Platform",
-    "certs.sqlDev.desc":
-      "Mastering advanced queries, relational database design, optimization, and stored procedures.",
-    "certs.bash.title": "Bash/Shell — Terminal & Command Line",
     "certs.o1.title": "Java Programming",
-    "certs.o2.title": "Bash/Shell — Terminal & Command Line",
+    "certs.sql.title": "SQL & Databases",
     "certs.o3.title": "Git & GitHub Essentials",
 
     // Skills
@@ -222,13 +217,8 @@ const translations = {
     "certs.pythonBackend.issuer": "Plataforma Online",
     "certs.pythonBackend.desc":
       "Desarrollo de APIs REST escalables con Python, FastAPI, validación automática, documentación interactiva y despliegue.",
-    "certs.sqlDev.title": "SQL para Desarrolladores",
-    "certs.sqlDev.issuer": "Plataforma Online",
-    "certs.sqlDev.desc":
-      "Dominio de consultas avanzadas, diseño de bases de datos relacionales, optimización y stored procedures.",
-    "certs.bash.title": "Bash/Shell: Terminal y línea de comandos",
     "certs.o1.title": "Java Programming",
-    "certs.o2.title": "Bash/Shell: Terminal y línea de Comandos",
+    "certs.sql.title": "SQL y Bases de Datos",
     "certs.o3.title": "Git & GitHub Essentials",
 
     // Skills
