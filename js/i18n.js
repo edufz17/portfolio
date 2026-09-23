@@ -39,9 +39,9 @@ const translations = {
     "about.card2Title": "Databases",
     "about.card2Desc":
       "Practical experience modeling data and working with databases in real projects.",
-    "about.card3Title": "Automation",
+    "about.card3Title": "Web Scraping",
     "about.card3Desc":
-      "Integrations and automation that connect systems and streamline workflows.",
+      "Python web scraping for data extraction, parsing, and automation.",
 
     // Projects
     "projects.label": "Projects",
@@ -163,20 +163,20 @@ const translations = {
     "about.label": "Sobre mí",
     "about.title": "Programador en formación con foco en backend",
     "about.p1":
-      "Programador en formación especializado en backend, con foco en Python y gran interés en diseñar servicios, APIs y sistemas robustos. Además del backend, me atraen especialmente los ámbitos de análisis de datos y automatización, donde puedo trabajar con números, métricas y procesos y aplicar Python más allá del desarrollo de APIs.",
+      "Programador en formación, actualmente completando el segundo año de FP DAM, con experiencia práctica en desarrollo de software multiplataforma, web scraping y trabajo con entornos profesionales. Además del backend, me atraen especialmente los ámbitos de análisis de datos y automatización, donde puedo trabajar con números, métricas y procesos, pudiendo aplicar Python más allá del desarrollo de APIs.",
     "about.p2":
-      "Actualmente completando el segundo año de FP DAM, con experiencia práctica en desarrollo de software, bases de datos y trabajo con entornos profesionales. Mi objetivo es incorporarme a un equipo donde pueda aportar valor real en backend e integración de sistemas, mientras construyo un camino sólido hacia disciplinas basadas en datos y automatización con Python.",
+      "Mi objetivo es incorporarme a un equipo donde pueda aportar valor real utilizando Python, mientras construyo un camino sólido hacia disciplinas basadas en datos y automatizaciones.",
     "about.p3":
-      "Antes de centrarme en el desarrollo de software, estudié ingeniería durante varios años, lo que reforzó mi gusto por los problemas complejos, el razonamiento cuantitativo y la visión de sistemas. Esa experiencia, aunque no terminara en un título, es parte de la razón por la que hoy prefiero usar Python para trabajar con datos, procesos y soluciones técnicas que cruzan programación e ingeniería.",
+      "Antes de centrarme en el desarrollo de software, pasé varios años estudiando ingeniería, dada mi genuina curiosidad por comprender las bases científicas del mundo que nos rodea. Esa experiencia, aunque no terminara en un título, es parte de la razón por la que hoy prefiero usar Python; pues representa la posibilidad de aportar soluciones técnicas que crucen métodos tecnológicos junto a ingeniería aplicada, generando así una optimización total de tiempo y recursos.",
     "about.card1Title": "Backend y APIs",
     "about.card1Desc":
       "Servicios, APIs y diseño de sistemas sólidos con un enfoque priorizado en Python.",
     "about.card2Title": "Bases de datos",
     "about.card2Desc":
       "Experiencia práctica modelando datos y trabajando con bases de datos en proyectos reales.",
-    "about.card3Title": "Automatización",
+    "about.card3Title": "Web Scraping",
     "about.card3Desc":
-      "Integraciones y automatización que conectan sistemas y agilizan flujos de trabajo.",
+      "Python Web Scraping para extracción de datos, análisis y automatización.",
 
     // Projects
     "projects.label": "Proyectos",
