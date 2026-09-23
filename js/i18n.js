@@ -28,11 +28,11 @@ const translations = {
     "about.label": "About me",
     "about.title": "Backend-focused developer in training",
     "about.p1":
-      "I'm a developer in training specialized in backend, with a strong focus on Python and a real interest in designing services, APIs, and robust systems. Beyond backend, I'm particularly drawn to data analysis and automation, where I can work with numbers, metrics, and processes and apply Python beyond API development.",
+      "I'm a developer in training, currently completing the second year of DAM, with practical experience in multiplatform software development, web scraping, and working with professional environments. Beyond backend, I'm particularly drawn to data analysis and automation, where I can work with numbers, metrics, and processes, and apply Python beyond API development.",
     "about.p2":
-      "I'm currently finishing my second year of vocational training in Multiplatform Application Development (DAM), with hands-on experience in software development, databases, and professional environments. My goal is to join a team where I can deliver real value in backend and system integration, while building a solid path toward data-driven disciplines and automation with Python.",
+      "My goal is to join a team where I can deliver real value using Python, while building a solid path toward data-driven disciplines and automations.",
     "about.p3":
-      "Before focusing on software development, I studied engineering for several years, which reinforced my love for complex problems, quantitative reasoning, and systems thinking. That experience, even without a degree, is part of the reason I now prefer using Python to work with data, processes, and technical solutions that bridge programming and engineering.",
+      "Before focusing on software development, I studied engineering for several years out of a genuine curiosity to understand the scientific foundations of the world around me. That experience, even without a degree, is part of the reason I now prefer using Python, as it represents the possibility of providing technical solutions that bridge technological methods with applied engineering, thus achieving total optimization of time and resources.",
     "about.card1Title": "Backend & APIs",
     "about.card1Desc":
       "Services, APIs, and solid system design with a Python-first approach.",
@@ -50,18 +50,12 @@ const translations = {
       "A selection of school and personal projects. Placeholders ready for your real work.",
     "projects.github": "GitHub",
     "projects.demo": "Live Demo",
-    "projects.p1.title": "TaskFlow — Productivity App",
+    "projects.p1.title": "Portfolio Web — This Site",
     "projects.p1.desc":
-      "A multiplatform task manager with categories, reminders, and a clean dashboard. Built as a school project focused on UX and local storage.",
-    "projects.p2.title": "FitTrack — Mobile Workout Log",
-    "projects.p2.desc":
-      "Cross-platform mobile app to log workouts, track progress, and visualize weekly stats with simple charts.",
-    "projects.p3.title": "Portfolio Web — This Site",
-    "projects.p3.desc":
       "A bilingual, responsive single-page portfolio with dynamic language switching, smooth scrolling, and a modern developer aesthetic.",
-    "projects.p4.title": "ShopLite — Inventory API",
-    "projects.p4.desc":
-      "REST API for a small inventory system with CRUD operations, validation, and basic authentication — practice project for backend skills.",
+    "projects.p2.title": "Web Scraping — Python",
+    "projects.p2.desc":
+      "Python web scraping project for data extraction and automation. Placeholder for future development.",
 
     // Certificates
     "certs.label": "Certificates",
