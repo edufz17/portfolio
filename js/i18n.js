@@ -100,11 +100,11 @@ const translations = {
       "Higher Vocational Training — Multiplatform Application Development (DAM)",
     "edu.dam.school": "Vocational Training Center",
     "edu.dam.desc":
-      "Comprehensive program covering software development for web, mobile, and desktop platforms: programming, databases, interfaces, services, and enterprise systems.",
-    "edu.secondary.title": "Secondary Education / Bachillerato",
-    "edu.secondary.school": "Secondary School",
-    "edu.secondary.desc":
-      "Foundation in science and technology that led me to pursue multiplatform software development.",
+      "Design, development, and maintenance of multiplatform applications with robust databases.",
+    "edu.mechanical.title": "Mechanical Engineering",
+    "edu.mechanical.school": "University of Castilla-La Mancha (UCLM)",
+    "edu.mechanical.desc":
+      "Although I did not complete the degree, my years studying engineering helped me develop strong analytical skills and complex problem-solving abilities.",
 
     // Contact
     "contact.label": "Contact",
@@ -227,11 +227,11 @@ const translations = {
       "Ciclo Formativo de Grado Superior — Desarrollo de Aplicaciones Multiplataforma (DAM)",
     "edu.dam.school": "Centro de Formación Profesional",
     "edu.dam.desc":
-      "Programa integral de desarrollo de software para web, móvil y escritorio: programación, bases de datos, interfaces, servicios y sistemas empresariales.",
-    "edu.secondary.title": "Educación secundaria / Bachillerato",
-    "edu.secondary.school": "Instituto de Educación Secundaria",
-    "edu.secondary.desc":
-      "Base en ciencias y tecnología que me impulsó a especializarme en desarrollo de software multiplataforma.",
+      "Diseño, desarrollo y mantenimiento de aplicaciones multiplataforma con bases de datos sólidas.",
+    "edu.mechanical.title": "Ingeniería Mecánica",
+    "edu.mechanical.school": "Universidad de Castilla-La Mancha (UCLM)",
+    "edu.mechanical.desc":
+      "A pesar de no haber acabado en un título, mis años estudiando ingeniería me ayudaron a desarrollar una gran capacidad analítica y resolución de problemas complejos.",
 
     // Contact
     "contact.label": "Contacto",

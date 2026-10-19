@@ -4,7 +4,7 @@
 (function () {
   "use strict";
 
-  const CONTACT_EMAIL = "edufz10@gmail.com"; 
+  const CONTACT_EMAIL = "edufz10@gmail.com";
 
   /* ---------- Init i18n ---------- */
   if (window.portfolioI18n) {
@@ -87,7 +87,7 @@
           }
         });
       },
-      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" }
+      { threshold: 0.12, rootMargin: "0px 0px -40px 0px" },
     );
     revealEls.forEach((el) => io.observe(el));
   } else {
@@ -137,7 +137,7 @@
 
       const subject = encodeURIComponent(`Portfolio contact from ${name}`);
       const body = encodeURIComponent(
-        `Name: ${name}\nEmail: ${email}\n\n${message}`
+        `Name: ${name}\nEmail: ${email}\n\n${message}`,
       );
       window.location.href = `mailto:${CONTACT_EMAIL}?subject=${subject}&body=${body}`;
 
