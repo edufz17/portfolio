@@ -13,11 +13,12 @@ const translations = {
     "nav.contact": "Contact",
 
     // Hero
-    "hero.badge": "Open to opportunities",
+    "hero.badge":
+      "Available for Internships · 2nd-Year Multiplatform Application Development Student",
     "hero.greeting": "Hi, I'm",
-    "hero.title": "Vocational Student in Multiplatform Application Development",
+    "hero.title": "DAM Student | Python & Data Engineering",
     "hero.tagline":
-      "Building modern apps across web, mobile, and desktop — learning by shipping real projects every day.",
+      "I am seeking an FCT work placement where I can develop my data engineering skills by working with Python, APIs, ETL pipelines, and databases.",
     "hero.ctaProjects": "View Projects",
     "hero.ctaResume": "Download Resume",
     "hero.statProjects": "Projects",
@@ -28,20 +29,20 @@ const translations = {
     "about.label": "About me",
     "about.title": "Backend-focused developer in training",
     "about.p1":
-      "I'm a developer in training, currently completing the second year of DAM, with practical experience in multiplatform software development, web scraping, and working with professional environments. Beyond backend, I'm particularly drawn to data analysis and automation, where I can work with numbers, metrics, and processes, and apply Python beyond API development.",
+      "I am a second-year Multi-Platform Application Development (DAM) student with hands-on experience in backend development, APIs, and web scraping with Python. I have also worked with data using Pandas and NumPy, applying the mathematical and quantitative knowledge gained through my previous engineering studies.",
     "about.p2":
-      "My goal is to join a team where I can deliver real value using Python, while building a solid path toward data-driven disciplines and automations.",
+      "My goal is to build a career in data engineering, particularly in data extraction, transformation, and storage using Python, SQL, and ETL pipelines. I am interested in understanding how reliable processes are built to turn data from different sources into information ready for analysis.",
     "about.p3":
-      "Before focusing on software development, I studied engineering for several years out of a genuine curiosity to understand the scientific foundations of the world around me. That experience, even without a degree, is part of the reason I now prefer using Python, as it represents the possibility of providing technical solutions that bridge technological methods with applied engineering, thus achieving total optimization of time and resources.",
-    "about.card1Title": "Backend & APIs",
+      "I am currently seeking a company where I can complete my FCT work placement and further develop these skills in a professional environment. I am also open to opportunities in data analysis, automation, and Python backend development.",
+    "about.card1Title": "ETL Pipelines",
     "about.card1Desc":
-      "Services, APIs, and solid system design with a Python-first approach.",
+      "End-to-end data pipelines: extraction, transformation with Pandas, and loading into databases.",
     "about.card2Title": "Databases",
     "about.card2Desc":
       "Practical experience modeling data and working with databases in real projects.",
-    "about.card3Title": "Web Scraping",
+    "about.card3Title": "Backend & APIs",
     "about.card3Desc":
-      "Python web scraping for data extraction, parsing, and automation.",
+      "Services, APIs, and solid system design with Python (FastAPI) and Java (Spring Boot).",
 
     // Projects
     "projects.label": "Projects",
@@ -56,6 +57,9 @@ const translations = {
     "projects.p2.title": "MatriculasSpring",
     "projects.p2.desc":
       "Spring Boot REST API for managing school enrollment data (students and courses). Built with Java 21, Spring Boot 3/4, Spring Data JPA, Hibernate, and MySQL.",
+    "projects.p3.title": "Spanish Electricity Market Analyzer",
+    "projects.p3.desc":
+      "End-to-end ETL pipeline that extracts Spanish electricity market data from an API, cleans and transforms it with Pandas (Python), and loads it into a PostgreSQL database. Built to practise the full data workflow (extraction, transformation and storage), leaving the data ready for analysis.",
 
     // Certificates
     "certs.label": "Certificates",
@@ -141,12 +145,11 @@ const translations = {
     "nav.contact": "Contacto",
 
     // Hero
-    "hero.badge": "Abierto a oportunidades",
+    "hero.badge": "Disponible para prácticas FCT · Estudiante de 2.º de DAM",
     "hero.greeting": "Hola, soy",
-    "hero.title":
-      "Estudiante de FP en Desarrollo de Aplicaciones Multiplataforma",
+    "hero.title": "Estudiante de FP DAM | Python y Data Engineering",
     "hero.tagline":
-      "Creo aplicaciones modernas para web, móvil y escritorio — aprendo lanzando proyectos reales cada día.",
+      "Busco una oportunidad de prácticas FCT donde desarrollar mis conocimientos de ingeniería de datos, trabajando con Python, APIs, pipelines ETL y bases de datos.",
     "hero.ctaProjects": "Ver proyectos",
     "hero.ctaResume": "Descargar CV",
     "hero.statProjects": "Proyectos",
@@ -157,20 +160,20 @@ const translations = {
     "about.label": "Sobre mí",
     "about.title": "Programador en formación con foco en backend",
     "about.p1":
-      "Programador en formación, actualmente completando el segundo año de FP DAM, con experiencia práctica en desarrollo de software multiplataforma, web scraping y trabajo con entornos profesionales. Además del backend, me atraen especialmente los ámbitos de análisis de datos y automatización, donde puedo trabajar con números, métricas y procesos, pudiendo aplicar Python más allá del desarrollo de APIs.",
+      "Soy estudiante de segundo curso de Desarrollo de Aplicaciones Multiplataforma (DAM), con experiencia práctica en desarrollo backend, APIs y web scraping con Python. También he trabajado con datos mediante Pandas y NumPy, aplicando conocimientos matemáticos y cuantitativos de mi formación previa en ingeniería.",
     "about.p2":
-      "Mi objetivo es incorporarme a un equipo donde pueda aportar valor real utilizando Python, mientras construyo un camino sólido hacia disciplinas basadas en datos y automatizaciones.",
+      "Mi objetivo es orientar mi carrera hacia la ingeniería de datos, especialmente en la extracción, transformación y almacenamiento de información mediante Python, SQL y pipelines ETL. Me interesa comprender cómo se construyen procesos fiables que convierten datos de distintas fuentes en información preparada para su análisis.",
     "about.p3":
-      "Antes de centrarme en el desarrollo de software, pasé varios años estudiando ingeniería, dada mi genuina curiosidad por comprender las bases científicas del mundo que nos rodea. Esa experiencia, aunque no terminara en un título, es parte de la razón por la que hoy prefiero usar Python; pues representa la posibilidad de aportar soluciones técnicas que crucen métodos tecnológicos junto a ingeniería aplicada, generando así una optimización total de tiempo y recursos.",
-    "about.card1Title": "Backend y APIs",
+      "Actualmente busco una empresa donde realizar mis prácticas FCT y seguir desarrollando estas competencias en un entorno profesional. También estoy abierto a oportunidades relacionadas con el análisis de datos, la automatización y el desarrollo backend con Python.",
+    "about.card1Title": "ETL Pipelines",
     "about.card1Desc":
-      "Servicios, APIs y diseño de sistemas sólidos con un enfoque priorizado en Python.",
+      "Pipelines de datos completos: extracción, transformación con Pandas y carga en PostgreSQL.",
     "about.card2Title": "Bases de datos",
     "about.card2Desc":
       "Experiencia práctica modelando datos y trabajando con bases de datos en proyectos reales.",
-    "about.card3Title": "Web Scraping",
+    "about.card3Title": "Backend y APIs",
     "about.card3Desc":
-      "Python Web Scraping para extracción de datos, análisis y automatización.",
+      "Servicios, APIs y diseño de sistemas sólidos con Python (FastAPI) y Java (Spring Boot).",
 
     // Projects
     "projects.label": "Proyectos",
@@ -185,9 +188,9 @@ const translations = {
     "projects.p2.title": "MatriculasSpring",
     "projects.p2.desc":
       "API REST con Spring Boot para gestionar matrículas escolares (alumnos y cursos). Desarrollado con Java 21, Spring Boot 3/4, Spring Data JPA, Hibernate y MySQL.",
-    "projects.p3.title": "Portfolio Web — Este sitio",
+    "projects.p3.title": "Spanish Electricity Market Analyzer",
     "projects.p3.desc":
-      "Portfolio bilingüe y responsive de una sola página, con cambio de idioma dinámico, scroll suave y estética moderna de desarrollador.",
+      "Pipeline ETL completo que extrae datos del mercado eléctrico español desde una API, los limpia y transforma con Pandas (Python) y los carga en una base de datos PostgreSQL. Diseñado para practicar el flujo completo de datos (extracción, transformación y almacenamiento), dejando los datos listos para análisis.",
     // Certificates
     "certs.label": "Certificados",
     "certs.title": "Credenciales y aprendizaje continuo",
