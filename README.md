@@ -2,7 +2,7 @@
 
 <img width="1182" height="588" alt="image" src="https://github.com/user-attachments/assets/aab8c9a1-4ddc-4c10-bd44-e49c2a5ecdab" />
 
-**Developer in Training Specializing in Python, Backend & Data Engineering**  
+**Developer in Training — Python, Backend & Data Engineering**  
 Student of **Higher Vocational Education in Multiplatform Application Development (FP DAM)**
 
 Fully responsive, bilingual website (English / Spanish).
@@ -11,84 +11,94 @@ Fully responsive, bilingual website (English / Spanish).
 
 ## 🌐 Live Demo
 
-[View Portfolio →](https://edufz17.github.io/portfolio/)  
+[View Portfolio →](https://edufz17.github.io/portfolio/)
 
 ---
 
-## 🧠 Approach and Use of Artificial Intelligence
+## 🧠 How This Site Was Built (AI-Agent-Assisted)
 
-As a DAM student with a **clear focus on Python, Backend, and Data Engineering** (OOP, ETL pipelines, REST APIs, databases, and data processing), frontend development is not my primary area of specialization.  
+As a DAM student with a **clear focus on Python, Backend, and Data Engineering** (OOP, ETL pipelines, REST APIs, databases, and data processing), frontend development is not my primary area of specialization.
 
-However, in today's software engineering landscape, **knowing how to effectively leverage, construct, and refine AI-generated code** is a highly valuable capability.  
+However, knowing how to **direct, review, and refine AI-generated code** is a highly valuable engineering skill. This portfolio demonstrates that workflow:
 
-This portfolio serves as a practical demonstration of that skill set:
+- I used **AI coding agents** to generate the initial scaffold, responsive layout, and internationalization framework.
+- I audited, corrected, and refined the generated code: bilingual content, project and certificate data, navigation, responsive details, accessibility, and contact links.
+- I iterated on the result to deliver a clean, maintainable product aligned with my technical goals.
 
-- I utilized **Grok Build** (xAI's coding agent) to generate the structural baseline, responsive layout, and internationalization framework.
-
-- I reviewed, adapted, and refined the generated code (folder architecture, translations, certificate routing, contact form setup, etc.).
-
-- I iterated on the output to deliver a clean, maintainable, and robust product tailored to my technical goals.
-
-
-The goal was not to bypass learning frontend, but rather to **demonstrate my ability to utilize AI tools critically and productively**, keeping my primary focus on architecture, logic, and core project value.
+The goal was not to bypass learning frontend, but to **demonstrate critical and productive use of AI coding agents** while keeping my focus on architecture, logic, and core project value.
 
 ---
 
 ## ✨ Features
 
-- **Fully Bilingual** (English ↔ Spanish) with dynamic language switching without page reloads
-
-- Modern, clean, and 100% responsive design
-
-- Featured Certifications section (Stanford Code in Place, Cambridge C1 Advanced, and Backend with Python + FastAPI)
-
-- Real-world projects with GitHub links and live demos
-
-- Functional contact form integration
-
-- Smooth animations and optimized site navigation
-
-- Lightweight and high-performance footprint (Tailwind CSS + Vanilla JS)
+- **Fully bilingual** (English ↔ Spanish) with dynamic language switching and `localStorage` persistence — no page reloads
+- Modern, clean, and 100% responsive mobile-first design
+- **Featured data-engineering project**: the Spanish Electricity Market Analyzer is highlighted first with an ETL pipeline visual (Extract → Transform → Load)
+- Project showcase with GitHub/demo links, tech tags, and a dedicated AI-agent workflow label for this site
+- Featured certifications section (Stanford Code in Place, Cambridge C1 Advanced, and Backend with Python + FastAPI)
+- Resume download
+- Direct contact via email and social profiles
+- Smooth animations, scroll reveals, and reduced-motion support
+- Lightweight, no-build static site (Tailwind CSS CDN + vanilla JavaScript)
 
 ---
 
 ## 🛠 Tech Stack
 
 - **HTML5**, **Tailwind CSS**, **Vanilla JavaScript**
-
-- Custom Internationalization (i18n) engine
-
-- Mobile-first and accessible design patterns
-
-- `mailto` form handler (ready for integration with Formspree or custom backend)
-
----
-
-## 📜 Featured Certifications
-
-- **Stanford Code in Place** – Stanford University
-
-- **Cambridge C1 Advanced English** – Cambridge Assessment English
-
-- **Backend Development with Python & FastAPI**
+- Custom internationalization (i18n) engine with English/Spanish dictionaries
+- Mobile-first, accessible design patterns
+- Direct email contact through `mailto:` links
 
 ---
 
 ## 📂 Project Structure
 
 ```bash
-my-portfolio/
+portfolio/
 ├── index.html
 ├── assets/
 │   ├── certificates/
 │   │   ├── stanford-code-in-place.pdf
 │   │   ├── cambridge-c1.pdf
-│   │   ├── backend-python-fastapi.pdf
-│   │   └── ...
+│   │   └── FastAPI.pdf
 │   └── resume.pdf
 ├── css/
-│   └── style.css
+│   └── styles.css
 ├── js/
 │   ├── i18n.js
 │   └── main.js
 └── README.md
+```
+
+---
+
+## 🚀 Featured Projects
+
+- **[Spanish Electricity Market Analyzer](https://github.com/edufz17/PipelineETL)** — End-to-end ETL pipeline in Python: extracts Spanish electricity market data from a public API, transforms it with Pandas, and loads it into PostgreSQL.
+- **MatriculasSpring** — REST API for school enrollment management built with Java 21, Spring Boot, Spring Data JPA, Hibernate, and MySQL.
+- **Portfolio Web** — This site: an AI-agent-assisted project later audited, corrected, and refined by hand.
+
+---
+
+## 📜 Featured Certifications
+
+- **Stanford Code in Place** — Stanford University
+- **Cambridge C1 Advanced English** — Cambridge Assessment English
+- **Backend Development with Python & FastAPI**
+
+---
+
+## 💻 Run Locally
+
+No build step required. From the project root:
+
+```bash
+# Python
+python -m http.server 5500
+
+# Node (if available)
+npx serve .
+```
+
+Then open `http://localhost:5500`.

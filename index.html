@@ -102,6 +102,7 @@
             </span>
             <span class="hidden sm:inline tracking-tight"
               >Eduardo<span class="text-brand-400"> Fernández</span></span
+            >
           </a>
 
           <!-- Desktop nav -->
@@ -224,7 +225,6 @@
               class="mobile-nav-link"
               data-i18n="nav.education"
               >Education</a
-            >
             >
           </nav>
         </div>
@@ -571,14 +571,255 @@
               Things I've built and shipped
             </h2>
             <p class="mt-3 text-slate-400" data-i18n="projects.subtitle">
-              A selection of school and personal projects. Placeholders ready
-              for your real work.
+              Data engineering first, then backend and web. A selection of the
+              work I'm most proud of.
             </p>
           </div>
 
-          <div class="reveal mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <!-- Project 1 -->
-            <article class="project-card group">
+          <div class="reveal mt-12">
+            <!-- Featured project: Spanish Electricity Market Analyzer -->
+            <article class="featured-project group">
+              <div class="grid lg:grid-cols-5">
+                <div class="p-6 sm:p-8 lg:col-span-3">
+                  <div class="mb-4 flex flex-wrap items-center gap-2">
+                    <span
+                      class="inline-flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/15 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-amber-300"
+                    >
+                      <svg
+                        class="h-3.5 w-3.5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      >
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.196-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118L2.98 10.1c-.783-.57-.38-1.81.588-1.81h4.915a1 1 0 00.95-.69l1.519-4.674z"
+                        />
+                      </svg>
+                      <span data-i18n="projects.featured">Featured project</span>
+                    </span>
+                    <span
+                      class="rounded-full border border-white/10 bg-surface-800/80 px-3 py-1 font-mono text-[11px] text-slate-300"
+                      data-i18n="projects.p3.kicker"
+                      >End-to-end data pipeline</span
+                    >
+                  </div>
+
+                  <div class="flex items-start gap-3">
+                    <span class="mt-1 font-mono text-sm text-amber-400/80"
+                      >01</span
+                    >
+                    <div class="min-w-0">
+                      <h3
+                        class="text-2xl font-bold tracking-tight text-white sm:text-3xl"
+                        data-i18n="projects.p3.title"
+                      >
+                        Spanish Electricity Market Analyzer
+                      </h3>
+                      <p
+                        class="mt-3 max-w-2xl leading-relaxed text-slate-300"
+                        data-i18n="projects.p3.desc"
+                      >
+                        End-to-end ETL pipeline that extracts Spanish
+                        electricity market data from an API, cleans and
+                        transforms it with Pandas (Python), and loads it into a
+                        PostgreSQL database. Built to practise the full data
+                        workflow (extraction, transformation and storage),
+                        leaving the data ready for analysis.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="mt-6 flex flex-wrap gap-2">
+                    <span
+                      class="tech-tag border-amber-500/20 bg-amber-500/10 text-amber-200/90"
+                      >Python</span
+                    >
+                    <span
+                      class="tech-tag border-amber-500/20 bg-amber-500/10 text-amber-200/90"
+                      >Pandas</span
+                    >
+                    <span
+                      class="tech-tag border-amber-500/20 bg-amber-500/10 text-amber-200/90"
+                      >PostgreSQL</span
+                    >
+                    <span
+                      class="tech-tag border-amber-500/20 bg-amber-500/10 text-amber-200/90"
+                      >ETL</span
+                    >
+                    <span
+                      class="tech-tag border-amber-500/20 bg-amber-500/10 text-amber-200/90"
+                      >Data Engineering</span
+                    >
+                  </div>
+
+                  <div class="mt-6 flex flex-wrap items-center gap-3">
+                    <a
+                      href="https://github.com/edufz17/PipelineETL"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      class="btn-primary"
+                      data-i18n="projects.github"
+                      >GitHub</a
+                    >
+                    <a href="#" class="btn-secondary" data-i18n="projects.demo"
+                      >Live Demo</a
+                    >
+                  </div>
+                </div>
+
+                <div
+                  class="border-t border-white/5 bg-surface-900/50 p-6 sm:p-8 lg:col-span-2 lg:border-t-0 lg:border-l"
+                >
+                  <div class="mb-5 flex items-center gap-2">
+                    <span class="h-2.5 w-2.5 rounded-full bg-red-400/70"></span>
+                    <span
+                      class="h-2.5 w-2.5 rounded-full bg-amber-400/70"
+                    ></span>
+                    <span
+                      class="h-2.5 w-2.5 rounded-full bg-emerald-400/70"
+                    ></span>
+                    <span class="ml-2 font-mono text-xs text-slate-500"
+                      >pipeline.py</span
+                    >
+                  </div>
+
+                  <div class="etl-timeline space-y-5">
+                    <div class="etl-step">
+                      <span
+                        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-amber-500/30 bg-amber-500/10 text-amber-300"
+                      >
+                        <svg
+                          class="h-4 w-4"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+                          />
+                        </svg>
+                      </span>
+                      <div class="min-w-0">
+                        <p
+                          class="font-mono text-[11px] uppercase tracking-wider text-amber-300"
+                          data-i18n="projects.p3.stage1Title"
+                        >
+                          Extract
+                        </p>
+                        <p
+                          class="mt-0.5 text-sm leading-snug text-slate-400"
+                          data-i18n="projects.p3.stage1Desc"
+                        >
+                          Pulls market data from a public electricity API.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="etl-step">
+                      <span
+                        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-amber-500/30 bg-amber-500/10 text-amber-300"
+                      >
+                        <svg
+                          class="h-4 w-4"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"
+                          />
+                        </svg>
+                      </span>
+                      <div class="min-w-0">
+                        <p
+                          class="font-mono text-[11px] uppercase tracking-wider text-amber-300"
+                          data-i18n="projects.p3.stage2Title"
+                        >
+                          Transform
+                        </p>
+                        <p
+                          class="mt-0.5 text-sm leading-snug text-slate-400"
+                          data-i18n="projects.p3.stage2Desc"
+                        >
+                          Cleans, normalises and aggregates the raw data with
+                          Pandas.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="etl-step">
+                      <span
+                        class="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl border border-amber-500/30 bg-amber-500/10 text-amber-300"
+                      >
+                        <svg
+                          class="h-4 w-4"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                          stroke-width="2"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"
+                          />
+                        </svg>
+                      </span>
+                      <div class="min-w-0">
+                        <p
+                          class="font-mono text-[11px] uppercase tracking-wider text-amber-300"
+                          data-i18n="projects.p3.stage3Title"
+                        >
+                          Load
+                        </p>
+                        <p
+                          class="mt-0.5 text-sm leading-snug text-slate-400"
+                          data-i18n="projects.p3.stage3Desc"
+                        >
+                          Stores the result in PostgreSQL, ready to query.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div
+                    class="mt-6 flex items-center gap-2 rounded-xl border border-emerald-500/20 bg-emerald-500/5 px-4 py-3"
+                  >
+                    <svg
+                      class="h-4 w-4 shrink-0 text-emerald-400"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                    <span
+                      class="font-mono text-xs text-emerald-300"
+                      data-i18n="projects.p3.result"
+                      >Analysis-ready dataset</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <div class="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2">
+              <!-- Project: Portfolio Web -->
+              <article class="project-card group">
               <div class="project-thumb">
                 <div
                   class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-indigo-600/40 to-surface-800"
@@ -599,7 +840,7 @@
                 </div>
                 <span
                   class="absolute top-3 left-3 rounded-lg bg-surface-900/80 px-2 py-1 text-[10px] font-mono text-indigo-300 border border-white/10"
-                  >01</span
+                  >02</span
                 >
               </div>
               <div class="p-5">
@@ -613,15 +854,17 @@
                   class="mt-2 text-sm text-slate-400 leading-relaxed"
                   data-i18n="projects.p1.desc"
                 >
-                  Página web personal generada por IA pero pulida y mejorada por
-                  mí. Construida con HTML, Tailwind CSS y JavaScript. Diseño
-                  responsive, cambio de idioma dinámico y showcase de proyectos,
-                  habilidades y certificados.
+                  Built by directing AI coding agents for the initial scaffold,
+                  then auditing and refining the code myself: bilingual content,
+                  responsive layout, project data and contact flow.
                 </p>
                 <div class="mt-4 flex flex-wrap gap-2">
                   <span class="tech-tag">HTML</span>
                   <span class="tech-tag">Tailwind</span>
                   <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag" data-i18n="projects.p1.aiTag"
+                    >AI-agent workflow</span
+                  >
                 </div>
                 <div class="mt-5 flex gap-3">
                   <a
@@ -664,7 +907,7 @@
                 </div>
                 <span
                   class="absolute top-3 left-3 rounded-lg bg-surface-900/80 px-2 py-1 text-[10px] font-mono text-green-300 border border-white/10"
-                  >02</span
+                  >03</span
                 >
               </div>
               <div class="p-5">
@@ -701,64 +944,7 @@
               </div>
             </article>
 
-            <!-- Project 3: Spanish Electricity Market Analyzer -->
-            <article class="project-card group">
-              <div class="project-thumb">
-                <div
-                  class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-amber-600/40 to-surface-800"
-                >
-                  <svg
-                    class="h-16 w-16 text-white/30"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    stroke-width="1"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                    />
-                  </svg>
-                </div>
-                <span
-                  class="absolute top-3 left-3 rounded-lg bg-surface-900/80 px-2 py-1 text-[10px] font-mono text-amber-300 border border-white/10"
-                  >03</span
-                >
-              </div>
-              <div class="p-5">
-                <h3
-                  class="text-lg font-semibold text-white group-hover:text-amber-300 transition"
-                  data-i18n="projects.p3.title"
-                >
-                  Spanish Electricity Market Analyzer
-                </h3>
-                <p
-                  class="mt-2 text-sm text-slate-400 leading-relaxed"
-                  data-i18n="projects.p3.desc"
-                >
-                  End-to-end ETL pipeline that extracts Spanish electricity market data from an API, cleans and transforms it with Pandas (Python), and loads it into a PostgreSQL database. Built to practise the full data workflow (extraction, transformation and storage), leaving the data ready for analysis.
-                </p>
-                <div class="mt-4 flex flex-wrap gap-2">
-                  <span class="tech-tag">Python</span>
-                  <span class="tech-tag">Pandas</span>
-                  <span class="tech-tag">PostgreSQL</span>
-                  <span class="tech-tag">ETL</span>
-                  <span class="tech-tag">Data Engineering</span>
-                </div>
-                <div class="mt-5 flex gap-3">
-                  <a
-                    href="#"
-                    class="link-btn"
-                    data-i18n="projects.github"
-                    >GitHub</a
-                  >
-                  <a href="#" class="link-btn muted" data-i18n="projects.demo"
-                    >Live Demo</a
-                  >
-                </div>
-              </div>
-            </article>
+            </div>
           </div>
         </div>
       </section>
