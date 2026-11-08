@@ -1,6 +1,6 @@
 # Eduardo Fernández Zarza — Portfolio
 
-<img width="1182" height="588" alt="image" src="https://github.com/user-attachments/assets/aab8c9a1-4ddc-4c10-bd44-e49c2a5ecdab" />
+<img width="1164" height="540" alt="Screenshot From 2026-11-08 10-21-44" src="https://github.com/user-attachments/assets/c65b7250-d799-4c3a-9bee-00557dfdb327" />
 
 **Developer in Training — Python, Backend & Data Engineering**  
 Student of **Higher Vocational Education in Multiplatform Application Development (FP DAM)**
