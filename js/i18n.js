@@ -61,6 +61,8 @@ const translations = {
       "Spring Boot REST API for managing school enrollment data (students and courses). Built with Java 21, Spring Boot 3/4, Spring Data JPA, Hibernate, and MySQL.",
     "projects.p3.title": "Spanish Electricity Market Analyzer",
     "projects.p3.kicker": "End-to-end data pipeline",
+    "projects.p3.status": "Actively developed",
+    "projects.p3.progress": "Working pipeline · architecture evolving",
     "projects.p3.desc":
       "An end-to-end ETL pipeline that extracts Spanish electricity market data from a public API, cleans and transforms it with Pandas, and loads it into PostgreSQL. It covers the full data lifecycle — extraction, validation, transformation and storage — leaving a clean, analysis-ready dataset.",
     "projects.p3.stage1Title": "Extract",
@@ -205,6 +207,8 @@ const translations = {
       "API REST con Spring Boot para gestionar matrículas escolares (alumnos y cursos). Desarrollado con Java 21, Spring Boot 3/4, Spring Data JPA, Hibernate y MySQL.",
     "projects.p3.title": "Spanish Electricity Market Analyzer",
     "projects.p3.kicker": "Pipeline de datos end-to-end",
+    "projects.p3.status": "En desarrollo activo",
+    "projects.p3.progress": "Pipeline funcional · arquitectura en evolución",
     "projects.p3.desc":
       "Pipeline ETL completo que extrae datos del mercado eléctrico español desde una API pública, los limpia y transforma con Pandas y los carga en PostgreSQL. Cubre todo el ciclo del dato —extracción, validación, transformación y almacenamiento— dejando un conjunto de datos limpio y listo para analizar.",
     "projects.p3.stage1Title": "Extracción",

@@ -443,7 +443,7 @@
       </section>
 
       <!-- ========== ABOUT ========== -->
-      <section id="about" class="py-20 sm:py-28">
+      <section id="about" class="py-20 sm:py-28 border-t border-white/5">
         <div class="mx-auto max-w-6xl px-4 sm:px-6">
           <div class="reveal max-w-3xl">
             <p class="section-label" data-i18n="about.label">About me</p>
@@ -581,9 +581,9 @@
             <article class="featured-project group">
               <div class="grid lg:grid-cols-5">
                 <div class="p-6 sm:p-8 lg:col-span-3">
-                  <div class="mb-4 flex flex-wrap items-center gap-2">
+                  <div class="mb-4 flex flex-wrap items-center gap-1.5">
                     <span
-                      class="inline-flex items-center gap-1.5 rounded-full border border-amber-500/30 bg-amber-500/15 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-amber-300"
+                      class="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-amber-500/30 bg-amber-500/15 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-amber-300"
                     >
                       <svg
                         class="h-3.5 w-3.5"
@@ -601,10 +601,25 @@
                       <span data-i18n="projects.featured">Featured project</span>
                     </span>
                     <span
-                      class="rounded-full border border-white/10 bg-surface-800/80 px-3 py-1 font-mono text-[11px] text-slate-300"
+                      class="whitespace-nowrap rounded-full border border-white/10 bg-surface-800/80 px-2.5 py-1 font-mono text-[10px] text-slate-300"
                       data-i18n="projects.p3.kicker"
                       >End-to-end data pipeline</span
                     >
+                    <span
+                      class="inline-flex items-center gap-1.5 whitespace-nowrap rounded-full border border-emerald-500/30 bg-emerald-500/10 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-emerald-300"
+                    >
+                      <span class="relative flex h-1.5 w-1.5" aria-hidden="true">
+                        <span
+                          class="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-75 motion-reduce:hidden"
+                        ></span>
+                        <span
+                          class="relative inline-flex h-1.5 w-1.5 rounded-full bg-emerald-400"
+                        ></span>
+                      </span>
+                      <span data-i18n="projects.p3.status"
+                        >Actively developed</span
+                      >
+                    </span>
                   </div>
 
                   <div class="flex items-start gap-3">
@@ -654,6 +669,27 @@
                       >Data Engineering</span
                     >
                   </div>
+
+                  <p
+                    class="mt-4 flex items-center gap-1.5 font-mono text-xs text-slate-400"
+                  >
+                    <svg
+                      class="h-3.5 w-3.5 shrink-0 text-emerald-400"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      stroke-width="2"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M13 7l5 5m0 0l-5 5m5-5H6"
+                      />
+                    </svg>
+                    <span data-i18n="projects.p3.progress"
+                      >Working pipeline · architecture evolving</span
+                    >
+                  </p>
 
                   <div class="mt-6 flex flex-wrap items-center gap-3">
                     <a
